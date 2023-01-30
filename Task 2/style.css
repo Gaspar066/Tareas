@@ -49,5 +49,15 @@ h2{
 position: absolute;
 bottom: 35px;
 right: 40px;
-
+}
+#boxabout{
+    position: absolute;
+    left: 350px;
+    bottom: -20px;
+    width: 60%;
+}
+#imgabout{
+    position: absolute;
+    left: 70rem;
+    bottom: 70px;
 }

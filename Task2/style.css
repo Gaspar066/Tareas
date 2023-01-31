@@ -37,6 +37,7 @@ h2{
     height: 400px;
 }
 .boxindex{
+    box-sizing:content-box;
     text-align: left;
     position: relative;
     bottom: 250px;

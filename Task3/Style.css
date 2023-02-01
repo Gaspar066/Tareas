@@ -19,14 +19,15 @@ h1{
     color:white;
 }
 nav>a{
-    margin: 25px;
+    padding: 10px;
+    margin: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     font-size: x-large;
     color: white;
 }
 a:hover{
-    color: orange;
-    background-color: #FFFFFF30;
+    background-color: #FFFFFF44;
 }
 #pointer{
     color: orange;

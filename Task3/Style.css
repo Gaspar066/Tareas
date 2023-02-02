@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;   
 }
-header{
+header{  
     animation: head-load 800ms;
 }
 @keyframes head-load{

@@ -1,8 +1,9 @@
-*{
+*:not(dl,ol){
     margin: 0px;
-    padding: 0px;   
+    padding: 0px;
 }
-header{  
+header{
+    position: sticky;  
     animation: head-load 800ms;
 }
 @keyframes head-load{
@@ -37,4 +38,55 @@ a:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+body{
+    background-image: url("./images/Logoicono.ico");
+    background-repeat: repeat;
+    background-color: yellow;
+    background-blend-mode: darken;
+}
+
+/* -----------LISTAS--------------*/
+
+h2,dl,dt,p{
+    font-family: cursive;
+}
+dl{
+    text-align: left;
+}
+dl>dt,li{
+    font-weight: bold;
+    padding-top: 5px;
+}
+/* -----------RULES--------------*/
+
+#rules-main{
+    width: 1400px;
+    height: 1700px;
+    margin-left: 10%;
+    background-color: white;
+    padding-left: 100px;
+    padding-top: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-items: center;
+}
+.rules-section{
+    font-size: larger;
+    width: 80vh;
+    line-height: 2rem;
+}
+#rules-images{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+#ruleimg1{
+    width: 500px;
+    height: 300px;
+    padding-left: 50px;
+}
+#ruleimg2{
+    width: 80%;
+    padding-top: 70px;
 }

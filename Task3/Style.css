@@ -41,6 +41,7 @@ a:hover{
 }
 body{
     background-image: url("./images/Logoicono.ico");
+    background-size: 10%;
     background-repeat: repeat;
     background-color: yellow;
     background-blend-mode: darken;
@@ -48,8 +49,9 @@ body{
 
 /* -----------LISTAS--------------*/
 
-h2,dl,dt,p{
+h2,h3,dl,dt,p{
     font-family: cursive;
+    padding-bottom: 10px;
 }
 dl{
     text-align: left;
@@ -60,7 +62,7 @@ dl>dt,li{
 }
 /* -----------RULES--------------*/
 
-#rules-main{
+#all-pages-main{
     width: 1400px;
     height: 1700px;
     margin-left: 10%;
@@ -69,7 +71,6 @@ dl>dt,li{
     padding-top: 60px;
     display: flex;
     align-items: flex-start;
-    justify-items: center;
 }
 .rules-section{
     font-size: larger;
@@ -89,4 +90,45 @@ dl>dt,li{
 #ruleimg2{
     width: 80%;
     padding-top: 70px;
+}
+/* -----------GAME_INFO--------------*/
+#game-info{
+    text-align: left;
+    width: 1400px;
+    height: 1700px;
+    margin-left: 10%;
+    background-color: white;
+    padding: 40px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+table,td,tr{
+    text-align: center;
+    border-collapse: collapse;
+}
+td{
+    height: 50px;
+    border: 2px solid black;
+}
+#game_info_title{
+    padding-bottom: 30px;
+}
+/* -----------CONTACT--------------*/
+#contact-main{
+    width: 1400px;
+    height: 560px;
+    margin-left: 10%;
+    background-color: white;
+    padding-left: 100px;
+    padding-top: 60px;
+    display: flex;
+}
+#contact_section{
+    display: flex;
+    text-align: center;
+    align-items: center; 
+}
+#article_contact{
+    padding-left: 40px;
 }

@@ -4,7 +4,7 @@
 }
 header{
     position: sticky;  
-    animation: head-load 800ms;
+    animation: head-load 1200ms;
 }
 @keyframes head-load{
     0% {
@@ -14,14 +14,25 @@ header{
         transform: translateY(0%);
     }
 }
+main{
+    
+}
 h1{
     margin-right:  40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:white;
 }
+#TITLE{
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+}
 nav>a{
     padding: 10px;
-    margin: 15px;
+    margin: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     font-size: x-large;
@@ -51,7 +62,7 @@ body{
 
 h2,h3,dl,dt,p{
     font-family: cursive;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 dl{
     text-align: left;
@@ -62,9 +73,9 @@ dl>dt,li{
 }
 /* -----------RULES--------------*/
 
-#all-pages-main{
+#rules-main{
     width: 1400px;
-    height: 1700px;
+    height: 1900px;
     margin-left: 10%;
     background-color: white;
     padding-left: 100px;
@@ -90,6 +101,15 @@ dl>dt,li{
 #ruleimg2{
     width: 80%;
     padding-top: 70px;
+}
+#compra{
+    text-decoration: none;
+    font-size: xx-large;
+    box-sizing: content-box;
+    border-radius: 3px solid black ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 200px;
 }
 /* -----------GAME_INFO--------------*/
 #game-info{
@@ -136,8 +156,9 @@ td{
 /* -----------ABOUT--------------*/
 #about_main{
     text-align: left;
+    font-size: larger;
     width: 1400px;
-    height: 1700px;
+    height: 900px;
     margin-left: 10%;
     background-color: white;
     padding: 40px;
@@ -145,4 +166,18 @@ td{
     display: flex;
     flex-direction: column;
 }
+/* -----------HOME--------------*/
+#home-main{
+    font-size: x-large;
+    width: 1400px;
+    height: 503px;
+    margin-left: 10%;
+    background-color: white;
+    padding-left: 100px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 

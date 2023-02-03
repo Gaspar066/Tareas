@@ -130,5 +130,19 @@ td{
     align-items: center; 
 }
 #article_contact{
-    padding-left: 40px;
+    font-size: x-large;
+    padding-left: 200px;
 }
+/* -----------ABOUT--------------*/
+#about_main{
+    text-align: left;
+    width: 1400px;
+    height: 1700px;
+    margin-left: 10%;
+    background-color: white;
+    padding: 40px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+

@@ -15,7 +15,15 @@ header{
     }
 }
 main{
-    
+    animation: main-load 2500ms
+}
+@keyframes main-load{
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
 }
 h1{
     margin-right:  40px;

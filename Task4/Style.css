@@ -1,0 +1,410 @@
+*:not(dl,ol){
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    margin: 0px;
+    animation: head-load 1200ms;
+}
+#banner{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@keyframes head-load{
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+main{
+    animation: main-load 2500ms
+}
+@keyframes main-load{
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+#TITLE{
+    padding-top: 2vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    position: sticky;
+}
+#navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vh;
+}
+#nav1{
+    display: flex;
+}
+#nav2{
+    display: flex;
+}
+nav>a{
+    text-align: center;
+    width: 20vh;
+    padding: 10px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+}
+a:hover{
+    background-color: #FFFFFF44;
+}
+#pointer{
+    color: orange;
+}
+body{
+    background-image: url("./images/Logoicono.ico");
+    background-size: 10%;
+    background-repeat: repeat;
+    background-color: yellow;
+    background-blend-mode: darken;
+}
+
+/* -----------LISTAS--------------*/
+
+h2,h3,dl,dt,p{
+    font-family: cursive;
+    padding-bottom: 20px;
+}
+dl{
+    text-align: left;
+}
+dl>dt,li{
+    font-weight: bold;
+    padding-top: 5px;
+}
+/* -----------RULES--------------*/
+
+#rules-main{
+    width: 1400px;
+    height: 100%;
+    margin-left: 10%;
+    background-color: white;
+    padding-left: 100px;
+    padding-top: 60px;
+    display: flex;
+    align-items: flex-start;
+}
+.rules-section{
+    margin-left: 90px;
+    font-size: larger;
+    width: 80vh;
+    line-height: 2rem;
+}
+#rules-images{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+#ruleimg1{
+    width: 500px;
+    height: 300px;
+}
+#ruleimg2{
+    width: 80%;
+    padding-top: 70px;
+}
+#compra{
+    text-decoration: none;
+    font-size: xx-large;
+    box-sizing: content-box;
+    border-radius: 3px solid black ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: inherit;
+    margin-top:  200px;
+}
+/* -----------GAME_INFO--------------*/
+#game-info{
+    text-align: left;
+    width: 1400px;
+    height: 100%;
+    margin-left: 10%;
+    background-color: white;
+    padding: 40px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+table,td,tr{
+    text-align: center;
+    border-collapse: collapse;
+}
+td{
+    height: 50px;
+    border: 2px solid black;
+}
+#game_info_title{
+    padding-bottom: 30px;
+}
+#maps{
+    font-size: larger;
+    margin: 5vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+/* -----------CONTACT--------------*/
+#contact-main{
+    width: 1400px;
+    height: 100%;
+    margin-left: 10%;
+    background-color: white;
+    padding-left: 100px;
+    padding-top: 60px;
+    display: flex;
+}
+#contact_section{
+    display: flex;
+    text-align: center;
+    align-items: center; 
+}
+#article_contact{
+    font-size: x-large;
+    padding-left: 200px;
+}
+/* -----------ABOUT--------------*/
+#about_main{
+    text-align: left;
+    font-size: larger;
+    width: 1400px;
+    height: 100%;
+    margin-left: 10%;
+    background-color: white;
+    padding: 40px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+/* -----------HOME--------------*/
+#home-main{
+    font-size: x-large;
+    width: 1400px;
+    height: 100%;
+    margin-left: 10%;
+    background-color: white;
+    padding-left: 100px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* -----------REGISTRATION--------------*/
+#registration{
+    text-align: left;
+    width: 1400px;
+    height: 100%;
+    margin-left: 10%;
+    background-color: white;
+    padding: 40px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+legend{
+    font-weight: bold;
+}
+#reg-edit{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.field-edit{
+    padding-bottom: 25px;
+    border: none;
+    line-height: 35px;
+}
+/* --------------------------------------------------------------------------MEDIA-QUERIES-------------------------------------------------------------*/
+@media only screen and (min-width: 320px) and (max-width: 767px){
+
+    /* -----------HEADER--------------*/
+    #banner{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h1{
+        text-align: center;
+        font-size: large;
+    }
+    #logo{
+        padding-left: 56px;
+        width: 70%;
+    }
+    #TITLE{
+        text-align: center;
+        font-size: large;
+        width: 100%;
+        height: 50%;
+    }
+    nav>a{
+        font-size: small;
+        width: 50%;
+    }
+    /* -----------HOME--------------*/
+    #home-main{
+        font-size: small;
+        width: 100%;
+        height: 50%;
+        margin: 0px;
+        background-color: white;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #home-img{
+        width: 50%;
+        padding-left: 10vh;
+    }
+    /* -----------ABOUT--------------*/
+    #about_main{
+        text-align: center;
+        font-size: small;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        background-color: white;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 320px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-img{
+        width: 70%;
+    }
+    /* -----------CONTACT--------------*/
+    #contact-main{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        background-color: white;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #contact_section{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: flex-end; 
+    }
+    #article_contact{
+        text-align: center;
+        font-size: smaller;
+        padding: 0px;
+    }
+    #contact-img{
+        width: 250px;
+        height: 261px;
+    }
+    /* -----------GAME_INFO--------------*/
+    #game-info{
+        text-align: left;
+        width: 100%;
+        height: 70%;
+        margin: 0px;
+        background-color: white;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    table,td,tr{
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;
+    }
+    td{
+        height: 50px;
+        border: 2px solid black;
+    }
+    #game-img{
+        width: 100%;
+    }
+    #maps{
+        font-size: small;
+        margin: 0vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    /* -----------RULES--------------*/
+    #rules-main{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        background-color: white;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .rules-section{
+        margin-left: 5%;
+        font-size: small;
+        width: 100%;
+        line-height: 2rem;
+    }
+    #rules-images{
+        padding: 10%;
+    }
+    #ruleimg1{
+        padding: 0;
+        width: 250px;
+    }
+    #ruleimg2{
+        width: 100%;
+        padding:0px;
+    }
+    #compra{
+        text-decoration: none;
+        font-size: medium;
+        padding-top:  10%;
+    }
+    /* -----------REGISTRATION--------------*/
+
+    #registration{
+        text-align: left;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        background-color: white;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    legend{
+        font-weight: bold;
+    }
+    #reg-edit{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .field-edit{
+        padding: 0px;
+        border: none;
+        line-height: 35px;
+    }
+}
